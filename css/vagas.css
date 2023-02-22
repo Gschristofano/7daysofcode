@@ -1,0 +1,197 @@
+/* VAGAS/TALENTOS ======================  */
+main .cont-vagas{
+    width: 100%;
+    height: 1798px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* TALENTOS =====================  */
+main .cont-vagas .talentos{
+    width: 1280px;
+    height: 602px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* TALENTOS >>> DIV =============== */
+main .cont-vagas .talentos div{
+    width: 1280px;
+    height: 138px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* TALENTOS >>> DIV >>> CONTEUDO >>> H2 =============== */
+main .cont-vagas .talentos div h2{
+    width: 125px;
+    height: 28px;
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8E2424;
+    text-align: center;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #8E24240D;
+    border-radius: 16px;
+}
+/* TALENTOS >>> DIV >>> CONTEUDO >>> H3 =============== */
+main .cont-vagas .talentos div h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #101828;
+    letter-spacing: -2%;
+    text-align: center;
+    align-self: stretch;
+}
+/* TALENTOS >>> DIV >>> CONTEUDO >>> P =============== */
+main .cont-vagas .talentos div P{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #667085;
+    align-items: center;
+    text-align: center;
+    align-self: stretch;
+}
+/* TALENTOS >>> DIV >>> IMG=============== */
+main .cont-vagas .talentos figure{
+    width: 1216px;
+    height: 400px;
+}
+/* VAGAS =================== */
+main .cont-vagas .vagas{
+    width: 1280px;
+    height: 940px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+/* VAGAS >>> DESIGN =================== */
+main .cont-vagas .vagas .vaga-1{
+    width: 768px;
+    height: 358px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+/* VAGAS >>> DESIGN >>> H2=================== */
+main .cont-vagas .vagas .vaga-1 h2{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 30px;
+    color: #101828;
+}
+/* VAGAS >>> DESIGN >>> GRUPO VAGAS=================== */
+main .cont-vagas .vagas .vaga-1 .v-group{
+    width: 720px;
+    height: 88px;
+    
+    padding: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* VAGAS >>> DESIGN >>> GRUPO VAGAS >>> H2=================== */
+main .cont-vagas .vagas .vaga-1 .v-group h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #101828;
+}
+/* VAGAS >>> DESIGN >>> GRUPO VAGAS >>> DIV=================== */
+main .cont-vagas .vagas .vaga-1 .v-group div{
+    width: 720px;
+    height: 24px;
+    
+    display: flex;
+    flex-direction: row;
+}
+/* VAGAS >>> DESIGN >>> GRUPO VAGAS >>> P =================== */
+main .cont-vagas .vagas .vaga-1 .v-group p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #667085;
+    
+    margin-right: 24px;
+}
+/* VAGAS >>> DEV =================== */
+main .cont-vagas .vagas .vaga-2{
+    width: 768px;
+    height: 518px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+/* VAGAS >>> DEV >>> H2 =================== */
+main .cont-vagas .vagas .vaga-2 h2{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 30px;
+    color: #101828;
+}
+/* VAGAS >>> DEV >>> GRUPO VAGAS =================== */
+main .cont-vagas .vagas .vaga-2 .v-group{
+    width: 720px;
+    height: 88px;
+    
+    padding: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* VAGAS >>> DEV >>> GRUPO VAGAS >>> H2 =================== */
+main .cont-vagas .vagas .vaga-2 .v-group h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #101828;
+}
+/* VAGAS >>> DEV >>> GRUPO VAGAS >>> DIV =================== */
+main .cont-vagas .vagas .vaga-2 .v-group div{
+    width: 720px;
+    height: 24px;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+/* VAGAS >>> DEV >>> GRUPO VAGAS >>> P =================== */
+main .cont-vagas .vagas .vaga-2 .v-group p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #667085;
+    
+    margin-right: 24px;
+}
+
+
+

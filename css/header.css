@@ -1,0 +1,113 @@
+/* HEADER GROUP =================== */
+header{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+/* HEADER PAI/PRINCIPAL ==================== */
+header .cont-header{
+    width: 88.8%;
+    height: 44px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* LOGO ======================= */
+header .cont-header .logo  {
+    width: 148px;
+    height: 27px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* LOGO >>> IMG ====================== */
+header .cont-header .logo img{
+    width: 27px;
+    height: 27px;
+}
+/* LOGO >>> TITULO ==================== */
+header .cont-header .logo h1{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3A404E;
+}
+/* MENU ===================== */
+header .cont-header .menu{
+    width: 362px;
+    height: 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+/* MENU >>> LIST =================== */
+header .cont-header .menu .list-menu{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+    color: #667085;
+}
+/* SPACE =================== */
+header .cont-header .space{
+    width: 142px;
+    height: 32px;
+
+    display: flex;
+}
+/* BOTÃO =============== */
+header .cont-header .btn{
+    width: 207px;
+    height: 44px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* BOTÃO >>> ENTRAR =========================== */
+header .cont-header .btn .entrar{
+    width: 83px;
+    height: 44px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+    background-color: #FFFFFF;
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #667085;
+    text-align: center;
+}
+/* BOTÃO >>> CADASTRAR =========================== */
+header .cont-header .btn .cadastrar{
+    width: 112px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+    background-color: #8E2424; 
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}

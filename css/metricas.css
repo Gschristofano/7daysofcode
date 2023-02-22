@@ -1,0 +1,61 @@
+/* METRICAS PAI/PRINCIPAL =================== */
+main .cont-metricas{
+    width: 100%;
+    height: 288px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* METRICAS GROUP=================== */
+main .cont-metricas .metricas{
+    width: 1216px;
+    height: 192px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* METRICAS GROUP >>> LISTA=================== */
+main .cont-metricas .metricas .list-metricas{
+    width: 280px;
+    height: 192px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+}
+/* METRICAS GROUP >>> LISTA >>> TITULO=================== */
+main .cont-metricas .metricas .list-metricas h2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -2%;
+    color: #8E2424;
+}
+/* METRICAS GROUP >>> LISTA >>> DIV=================== */
+main .cont-metricas .metricas .list-metricas div{
+    width: 280px;
+    height: 108px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* METRICAS GROUP >>> LISTA >>> DIV >>> CONTEUDO=================== */
+main .cont-metricas .metricas .list-metricas div h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #101828;
+    margin-bottom: 8px;
+}   
+/* METRICAS GROUP >>> LISTA >>> DIV >>> CONTEUDO=================== */
+main .cont-metricas .metricas .list-metricas div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+    text-align: start;
+}

@@ -1,0 +1,84 @@
+/* DEPOIMENTOS ====================== */
+main .cont-depo{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* DEPOIMENOTS >>> DEPO =================*/
+main .cont-depo .depo{
+    width: 1216px;
+    height: 404px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #C3191908;
+    align-items: center;
+}
+/* DEPOIMENOTS >>> DEPO >>> DEPOIMENTO=================*/
+main .cont-depo .depo .depoimento{
+    width: 1088px;
+    height: 124px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* DEPOIMENOTS >>> DEPO >>> DEPOIMENTO >>> H2=================*/
+main .cont-depo .depo .depoimento h2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #8E2424;
+}
+/* DEPOIMENOTS >>> DEPO >>> DEPOIMENTO >>> p=================*/
+main .cont-depo .depo .depoimento p{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -2%;
+    text-align: center;
+    
+    color: #101828
+}
+/* DEPOIMENOTS >>> DEPO >>> PESS =================*/
+main .cont-depo .depo .pess{
+    width: 1088px;
+    height: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* DEPOIMENOTS >>> DEPO >>> PESS >>> FIGURE=================*/
+main .cont-depo .depo .pess figure{
+    width: 56px;
+    height: 56px;
+    
+    border-radius: 50%;
+}
+/* DEPOIMENOTS >>> DEPO >>> PESS >>> H3=================*/
+main .cont-depo .depo .pess h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #101828;
+}
+/* DEPOIMENOTS >>> DEPO >>> PESS >>> H3=================*/
+main .cont-depo .depo .pess P{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+    color: #667085;
+}
